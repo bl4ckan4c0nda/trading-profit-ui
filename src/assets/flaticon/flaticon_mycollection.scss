@@ -1,0 +1,185 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?6edbf94525c8d25d26d60e4b25783d35") format("truetype"),
+url("./flaticon_mycollection.woff?6edbf94525c8d25d26d60e4b25783d35") format("woff"),
+url("./flaticon_mycollection.woff2?6edbf94525c8d25d26d60e4b25783d35") format("woff2"),
+url("./flaticon_mycollection.eot?6edbf94525c8d25d26d60e4b25783d35#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?6edbf94525c8d25d26d60e4b25783d35#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "arrow-down-sign-to-navigate": "\f101",
+    "vuesax-bulk-eye-slash": "\f102",
+    "vuesax-bulk-security-safe": "\f103",
+    "vuesax-bulk-trade": "\f104",
+    "vuesax-bulk-verify": "\f105",
+    "vuesax-bulk-judge": "\f106",
+    "vuesax-bulk-lamp-charge": "\f107",
+    "vuesax-bulk-wallet-add": "\f108",
+    "vuesax-bulk-home-trend-up-1": "\f109",
+    "vuesax-bulk-home-trend-down": "\f10a",
+    "vuesax-bulk-home": "\f10b",
+    "vuesax-bulk-danger": "\f10c",
+    "vuesax-bulk-bookmark-2": "\f10d",
+    "vuesax-bulk-bag": "\f10e",
+    "vuesax-bulk-arrow-up": "\f10f",
+    "vuesax-bulk-arrow-down": "\f110",
+    "vuesax-bulk-headphone": "\f111",
+    "vuesax-bulk-profile": "\f112",
+    "vuesax-bulk-wallet": "\f113",
+    "vuesax-bold-lock": "\f114",
+    "vuesax-bulk-google-play": "\f115",
+    "vuesax-bulk-crown": "\f116",
+    "vuesax-bold-minus-square": "\f117",
+    "vuesax-bold-empty-wallet": "\f118",
+    "tick-square": "\f119",
+    "vuesax-bold-minus-square-1": "\f11a",
+    "vuesax-bold-minus-square-2": "\f11b",
+    "vuesax-bulk-tick-circle": "\f11c",
+    "vuesax-bulk-crown-1": "\f11d",
+    "vuesax-bold-minus-square-3": "\f11e",
+    "vuesax-bulk-warning-2": "\f11f",
+    "vuesax-bulk-search-normal": "\f120",
+    "google": "\f121",
+    "vuesax-bold-empty-wallet-1": "\f122",
+    "vuesax-bulk-search-normal-1": "\f123",
+    "vuesax-bulk-send-2": "\f124",
+    "vuesax-bulk-whatsapp": "\f125",
+    "arrow-point-to-right": "\f126",
+    "group-812": "\f127",
+    "tron": "\f128",
+);
+
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: map-get($flaticon_mycollection-map, "arrow-down-sign-to-navigate");
+}
+.flaticon-vuesax-bulk-eye-slash:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-eye-slash");
+}
+.flaticon-vuesax-bulk-security-safe:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-security-safe");
+}
+.flaticon-vuesax-bulk-trade:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-trade");
+}
+.flaticon-vuesax-bulk-verify:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-verify");
+}
+.flaticon-vuesax-bulk-judge:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-judge");
+}
+.flaticon-vuesax-bulk-lamp-charge:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-lamp-charge");
+}
+.flaticon-vuesax-bulk-wallet-add:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-wallet-add");
+}
+.flaticon-vuesax-bulk-home-trend-up-1:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-home-trend-up-1");
+}
+.flaticon-vuesax-bulk-home-trend-down:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-home-trend-down");
+}
+.flaticon-vuesax-bulk-home:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-home");
+}
+.flaticon-vuesax-bulk-danger:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-danger");
+}
+.flaticon-vuesax-bulk-bookmark-2:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-bookmark-2");
+}
+.flaticon-vuesax-bulk-bag:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-bag");
+}
+.flaticon-vuesax-bulk-arrow-up:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-arrow-up");
+}
+.flaticon-vuesax-bulk-arrow-down:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-arrow-down");
+}
+.flaticon-vuesax-bulk-headphone:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-headphone");
+}
+.flaticon-vuesax-bulk-profile:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-profile");
+}
+.flaticon-vuesax-bulk-wallet:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-wallet");
+}
+.flaticon-vuesax-bold-lock:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bold-lock");
+}
+.flaticon-vuesax-bulk-google-play:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-google-play");
+}
+.flaticon-vuesax-bulk-crown:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-crown");
+}
+.flaticon-vuesax-bold-minus-square:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bold-minus-square");
+}
+.flaticon-vuesax-bold-empty-wallet:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bold-empty-wallet");
+}
+.flaticon-tick-square:before {
+    content: map-get($flaticon_mycollection-map, "tick-square");
+}
+.flaticon-vuesax-bold-minus-square-1:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bold-minus-square-1");
+}
+.flaticon-vuesax-bold-minus-square-2:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bold-minus-square-2");
+}
+.flaticon-vuesax-bulk-tick-circle:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-tick-circle");
+}
+.flaticon-vuesax-bulk-crown-1:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-crown-1");
+}
+.flaticon-vuesax-bold-minus-square-3:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bold-minus-square-3");
+}
+.flaticon-vuesax-bulk-warning-2:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-warning-2");
+}
+.flaticon-vuesax-bulk-search-normal:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-search-normal");
+}
+.flaticon-google:before {
+    content: map-get($flaticon_mycollection-map, "google");
+}
+.flaticon-vuesax-bold-empty-wallet-1:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bold-empty-wallet-1");
+}
+.flaticon-vuesax-bulk-search-normal-1:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-search-normal-1");
+}
+.flaticon-vuesax-bulk-send-2:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-send-2");
+}
+.flaticon-vuesax-bulk-whatsapp:before {
+    content: map-get($flaticon_mycollection-map, "vuesax-bulk-whatsapp");
+}
+.flaticon-arrow-point-to-right:before {
+    content: map-get($flaticon_mycollection-map, "arrow-point-to-right");
+}
+.flaticon-group-812:before {
+    content: map-get($flaticon_mycollection-map, "group-812");
+}
+.flaticon-tron:before {
+    content: map-get($flaticon_mycollection-map, "tron");
+}
