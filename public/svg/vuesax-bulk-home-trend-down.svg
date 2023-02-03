@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.825" height="21.825" viewBox="0 0 21.825 21.825">
+  <g id="vuesax_bulk_home-trend-down" data-name="vuesax/bulk/home-trend-down" transform="translate(-492 -188)">
+    <g id="home-trend-down" transform="translate(492 188)">
+      <g id="home-trend-down-2" data-name="home-trend-down" transform="translate(1.81 1.821)">
+        <path id="Vector" d="M16.414,4.381,11.176.716A4.413,4.413,0,0,0,6.184.835L1.628,4.39A4.686,4.686,0,0,0,0,7.7v6.275a4.211,4.211,0,0,0,4.2,4.21H14a4.2,4.2,0,0,0,4.2-4.2V7.819A4.641,4.641,0,0,0,16.414,4.381Z" transform="translate(0 0)" fill="#fff" opacity="0.4"/>
+        <path id="Vector-2" data-name="Vector" d="M8.9,3.176a.637.637,0,1,0-1.273,0V3.34L5.149.866A.625.625,0,0,0,4.64.684a.6.6,0,0,0-.464.282L3.249,2.348,1.084.184a.642.642,0,0,0-.9,0,.642.642,0,0,0,0,.9l2.71,2.71a.625.625,0,0,0,.509.182.6.6,0,0,0,.464-.282l.928-1.382L6.713,4.231H6.55a.637.637,0,1,0,0,1.273H8.241a.78.78,0,0,0,.246-.045.643.643,0,0,0,.346-.346.588.588,0,0,0,.045-.246V3.176Z" transform="translate(4.645 8.035)" fill="#fff"/>
+      </g>
+      <path id="Vector-3" data-name="Vector" d="M0,0H21.825V21.825H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

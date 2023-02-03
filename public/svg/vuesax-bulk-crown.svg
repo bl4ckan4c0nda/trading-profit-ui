@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.707" height="21.707" viewBox="0 0 21.707 21.707">
+  <g id="vuesax_bulk_crown" data-name="vuesax/bulk/crown" transform="translate(-172 -380)">
+    <g id="crown" transform="translate(172 380)">
+      <path id="Vector" d="M13.3,15.152H4.669a.91.91,0,0,1-.85-.6L.056,4.018a.9.9,0,0,1,1.375-1.04L5.049,5.565a.91.91,0,0,0,1.375-.416L8.133.59a.9.9,0,0,1,1.691,0l1.709,4.558a.9.9,0,0,0,1.375.416l3.618-2.587A.9.9,0,0,1,17.9,4.018L14.138,14.555A.889.889,0,0,1,13.3,15.152Z" transform="translate(1.87 2.015)" fill="#fff" opacity="0.4"/>
+      <path id="Vector-2" data-name="Vector" d="M9.723,1.357H.678A.683.683,0,0,1,0,.678.683.683,0,0,1,.678,0H9.723A.683.683,0,0,1,10.4.678.683.683,0,0,1,9.723,1.357Z" transform="translate(5.653 18.541)" fill="#fff"/>
+      <path id="Vector-3" data-name="Vector" d="M5.2,1.357H.678A.683.683,0,0,1,0,.678.683.683,0,0,1,.678,0H5.2a.683.683,0,0,1,.678.678A.683.683,0,0,1,5.2,1.357Z" transform="translate(7.914 11.984)" fill="#fff"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H21.707V21.707H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
