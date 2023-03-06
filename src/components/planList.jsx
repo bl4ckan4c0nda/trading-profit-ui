@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const PlanList = ({ holdingTime, profit, min, max }) => {
+const PlanList = ({ title, term, profit, min, max }) => {
     return (
         <div
             className="rounded-[25px] border-[2px] border-[#414B61] p-6 w-full"
@@ -13,7 +13,7 @@ const PlanList = ({ holdingTime, profit, min, max }) => {
                     <div
                         className="text-[18px] font-semibold text-white text-right mb-2"
                     >
-                        پلن {holdingTime} روز
+                        {title}
                     </div>
                     <div className="text-[#6F7582] text-[14px]">سود تعلق گرفته</div>
                 </div>
@@ -65,14 +65,15 @@ const PlanList = ({ holdingTime, profit, min, max }) => {
                 مدت زمان هولد سرمایه
             </div>
             <div className="text-right text-[18px] font-semibold text-white">
-                حدود {holdingTime} روز
+                {term} روز
             </div>
         </div>
     );
 }
 
 PlanList.propTypes = {
-    holdingTime: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    term: PropTypes.number.isRequired,
     profit: PropTypes.number.isRequired,
     min: PropTypes.number.isRequired,
     max: PropTypes.number.isRequired
