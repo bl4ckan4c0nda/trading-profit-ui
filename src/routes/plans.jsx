@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import useApi from "../hooks/useApi"
 import PageHeader from '../components/common/PageHeader';
 import PlanList from '../components/planList';
-import { getPlans } from '../fakeData/plans';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -11,11 +11,19 @@ import "swiper/css/effect-cards";
 
 
 const Plans = () => {
-    const [allPlans, setAllPlans] = useState([])
+    const { data, isLoading, error } = useApi("http://195.201.82.205:8080/api/v1/");
 
-    useEffect(() => {
-        setAllPlans(getPlans)
-    }, [])
+    if (isLoading) {
+        return <div>Loading...</div>;
+    }
+
+    if (error) {
+        return <div>Error: {error}</div>;
+    }
+
+    if (!data) {
+        return null;
+    }
 
     return (
         <>
@@ -24,9 +32,9 @@ const Plans = () => {
             <div className="swiper mySwiper2 !h-auto px-8 mt-[130px]">
                 <Swiper slidesPerView={1.2} spaceBetween={35} grabCursor={true} className="swiper-wrapper">
                     {
-                        allPlans.map(
+                        data.plans.map(
                             plan => <SwiperSlide key={plan.id} className="swiper-slide flex items-center justify-center">
-                                <PlanList holdingTime={plan.holdingTime} profit={plan.profit} min={plan.min} max={plan.max} />
+                                <PlanList title={plan.title} term={plan.term} profit={plan.profit} min={plan.min} max={plan.max} />
                             </SwiperSlide>
                         )
                     }
